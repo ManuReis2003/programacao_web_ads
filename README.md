@@ -1,2 +1,2 @@
-# programacao_web_ads
+# Prograação WEB
 Repositório da disciplina e Programação WEB - ADS
