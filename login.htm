@@ -7,24 +7,33 @@
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body> 
-    
+   
     <h1 id="titulo"> Revisão HTML e CSS</h1> <!--Revisão HTML/CSS --> 
-<div> 
-    <h1>Nome: </h1>
-    <input class="entradas-usuario" type="text" placeholder="Insira seu Nome"> <!--Nome --> 
-    
-    <h1> Idade:</h1>
-    <input class="entradas-usuario" type="number" placeholder="Insira sua Idade">  <!--Idade --> 
-    
-    <h1> E-mail:</h1>
-    <input class="entradas-usuario" type="email" placeholder="Insira seu e-mail"> <!--E-mail --> 
-</div>
 
+    <form> 
+<div class="entradas-usuario"> 
+    <div id="nome"> 
+    <label for="name">Nome: </label>
+    <input  type="text" placeholder="Insira seu Nome"> <!--Nome --> 
+    </div>
+
+    <div id="age">
+    <label for="age"> Idade:</label>
+    <input  type="number" placeholder="Insira sua Idade">  <!--Idade --> 
+   </div>
+    
+   <div id="email"> 
+    <label for="e-mail"> E-mail:</label>
+    <input type="email" placeholder="Insira seu e-mail"> <!--E-mail --> 
+   </div>
 
     <button> Enviar</button>   <!-- BOTÃO-->
+</div>
+</form>
 
-    <footer> 
+    <footer class="rodape"> 
         <p class="texto-paragrafo"> Desenvolvido por Manuela Reis - 2024</p>
     </footer>
+
 </body>
 </html>
