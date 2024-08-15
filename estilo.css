@@ -11,16 +11,3 @@ color: rgb(25, 25, 143);
 .texto-paragrafo{
     text-align: center;
 }
-.entradas-usuario{
-    border: 1px solid;
-
-}
-.rodape{
-    position: fixed;
-    border: 1 px solid;
-    width: 100%;
-    background-color: aqua;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
