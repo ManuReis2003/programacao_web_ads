@@ -7,24 +7,31 @@
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body> 
-   
+    
+   <!--  <div class="box content-box"> Conteúdo content</div>-->
+   <!-- <div class="box border-box"> Conteúdo border</div>-->
+
     <h1 id="titulo"> Revisão HTML e CSS</h1> <!--Revisão HTML/CSS --> 
 
     <form> 
 <div class="entradas-usuario"> 
-    <div id="nome"> 
+    <div class="campos" id="nome"> 
     <label for="name">Nome: </label>
     <input  type="text" placeholder="Insira seu Nome"> <!--Nome --> 
     </div>
 
-    <div id="age">
+    <div class="campos" id="age">
     <label for="age"> Idade:</label>
-    <input  type="number" placeholder="Insira sua Idade">  <!--Idade --> 
+    <input  type="text" placeholder="Insira sua Idade">  <!--Idade --> 
    </div>
     
-   <div id="email"> 
+   <div class="campos" id="email"> 
     <label for="e-mail"> E-mail:</label>
     <input type="email" placeholder="Insira seu e-mail"> <!--E-mail --> 
+   </div>
+   <div class="campos">
+   <label for="cpf"> CPF</label>
+   <input type="text" placeholder="Insira seu CPF">  <!--CPF-->
    </div>
 
     <button> Enviar</button>   <!-- BOTÃO-->
@@ -35,5 +42,6 @@
         <p class="texto-paragrafo"> Desenvolvido por Manuela Reis - 2024</p>
     </footer>
 
+    <script src="index.js"></script> <!-- RELACIONA JS-->
 </body>
 </html>

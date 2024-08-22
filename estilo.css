@@ -1,5 +1,21 @@
 *{          /* -> Todo elemento*/
 margin: 0; 
+box-sizing: border-box; /* diminui o contudo de forma que td a borda tem o tamanho q eu defini */
+ }
+ .box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 2px;
+    background-color: #ccc;
+ }
+
+ .content-box{
+    box-sizing: content-box;
+ }
+ .border-box{
+    box-sizing: border-box;
  }
 #titulo{ text-align: center;
     color: #f0140c;}
@@ -22,7 +38,7 @@ font-weight:bold;
     left: 50%;           /*x   y */
     transform: translate(-50%,-50%); 
     padding: 10px;
-    
+    border-radius: 5px;
 }
 
 .rodape{
@@ -33,4 +49,7 @@ font-weight:bold;
     background-color: aqua;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.campos{
+    margin-bottom: 8px;
 }
