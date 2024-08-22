@@ -15,26 +15,26 @@
 
     <form> 
 <div class="entradas-usuario"> 
-    <div class="campos" id="nome"> 
-    <label for="name">Nome: </label>
-    <input  type="text" placeholder="Insira seu Nome"> <!--Nome --> 
+    <div>
+    <label for="name" class="campos">Nome: </label>
+    <input  id="nome" type="text" placeholder="Insira seu Nome"> <!--Nome --> 
     </div>
-
     <div class="campos" id="age">
     <label for="age"> Idade:</label>
-    <input  type="text" placeholder="Insira sua Idade">  <!--Idade --> 
+    <input id="idade" type="text" placeholder="Insira sua Idade">  <!--Idade --> 
    </div>
     
    <div class="campos" id="email"> 
     <label for="e-mail"> E-mail:</label>
-    <input type="email" placeholder="Insira seu e-mail"> <!--E-mail --> 
-   </div>
-   <div class="campos">
-   <label for="cpf"> CPF</label>
-   <input type="text" placeholder="Insira seu CPF">  <!--CPF-->
+    <input id="email" placeholder="Insira seu e-mail"> <!--E-mail --> 
    </div>
 
-    <button> Enviar</button>   <!-- BOTÃO-->
+   <div class="campos">
+   <label for="cpf:"> CPF</label>
+   <input id="cpf" type="text" placeholder="Insira seu CPF">  <!--CPF-->
+   </div>
+                           <!--js-->
+    <button id="enviar" onclick="submeter();"> Enviar</button>   <!-- BOTÃO-->
 </div>
 </form>
 
