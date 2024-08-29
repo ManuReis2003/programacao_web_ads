@@ -17,8 +17,11 @@ box-sizing: border-box; /* diminui o contudo de forma que td a borda tem o taman
  .border-box{
     box-sizing: border-box;
  }
-#titulo{ text-align: center;
-    color: #f0140c;}
+#titulo{ 
+    text-align: center;
+    color: #f0140c;
+    margin-top: 15px;
+    }
 label{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: rgb(25, 25, 143);
 font-weight:bold;
@@ -53,3 +56,6 @@ font-weight:bold;
 .campos{
     margin-bottom: 8px;
 }
+
+
+
